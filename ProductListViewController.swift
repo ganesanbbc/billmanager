@@ -8,11 +8,19 @@
 
 import UIKit
 
-class ProductListViewController: UIViewController {
+class ProductListViewController: UIViewController{
+    
+    var carryValue = "";
+    
 
+    @IBOutlet weak var collectionVie: UICollectionView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        print(carryValue)
+        
         // Do any additional setup after loading the view.
     }
 
@@ -31,5 +39,4 @@ class ProductListViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
