@@ -15,6 +15,9 @@
 		BAE63F441DE05E3F00AD2863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE63F421DE05E3F00AD2863 /* LaunchScreen.storyboard */; };
 		BAE63F4F1DE05E3F00AD2863 /* BillManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63F4E1DE05E3F00AD2863 /* BillManagementTests.swift */; };
 		BAE63F5A1DE05E3F00AD2863 /* BillManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63F591DE05E3F00AD2863 /* BillManagementUITests.swift */; };
+		BAE63F821DE0AE9500AD2863 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63F811DE0AE9500AD2863 /* ProductListViewController.swift */; };
+		BAE63F831DE0AE9500AD2863 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63F811DE0AE9500AD2863 /* ProductListViewController.swift */; };
+		BAE63F841DE0AE9500AD2863 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63F811DE0AE9500AD2863 /* ProductListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		BAE63F551DE05E3F00AD2863 /* BillManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE63F591DE05E3F00AD2863 /* BillManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManagementUITests.swift; sourceTree = "<group>"; };
 		BAE63F5B1DE05E3F00AD2863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE63F811DE0AE9500AD2863 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListViewController.swift; path = ../ProductListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		BAE63F351DE05E3F00AD2863 /* BillManagement */ = {
 			isa = PBXGroup;
 			children = (
+				BAE63F811DE0AE9500AD2863 /* ProductListViewController.swift */,
 				BAE63F361DE05E3F00AD2863 /* AppDelegate.swift */,
 				BAE63F381DE05E3F00AD2863 /* ViewController.swift */,
 				BAE63F3A1DE05E3F00AD2863 /* Main.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				BAE63F391DE05E3F00AD2863 /* ViewController.swift in Sources */,
 				BAE63F3F1DE05E3F00AD2863 /* BillManagement.xcdatamodeld in Sources */,
+				BAE63F821DE0AE9500AD2863 /* ProductListViewController.swift in Sources */,
 				BAE63F371DE05E3F00AD2863 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE63F831DE0AE9500AD2863 /* ProductListViewController.swift in Sources */,
 				BAE63F4F1DE05E3F00AD2863 /* BillManagementTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE63F841DE0AE9500AD2863 /* ProductListViewController.swift in Sources */,
 				BAE63F5A1DE05E3F00AD2863 /* BillManagementUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
